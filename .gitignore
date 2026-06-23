@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML artifacts — never commit these
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+checkpoints/
+outputs/
+wandb/
+mlruns/
+
+# Data — too large for git
+data/
+*.bag
+*.log
+
+# CARLA
+_out/
+recordings/
+
+# Secrets
+.env
+*.key
