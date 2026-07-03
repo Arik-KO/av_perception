@@ -52,7 +52,7 @@ def connect( host: Optional[str] = None,
             return client
 
         except RuntimeError as e:
-            logger.warning(f"Attempt {attempt}/{retires} failed: {e}")
+            logger.warning(f"Attempt {attempt}/{retries} failed: {e}")
             if attempt < retires:
                 wait_time = attempt * 2
                 logger.info(f"Retrying in {wait_time}s ...")
