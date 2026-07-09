@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Modular BEV perception pipeline for autonomous driving using CARLA"
 readme = "README.md"
 license = {text = "MIT"}
-requires-python = ">=3.9,<3.12"
+requires-python = ">=3.9"
 
 dependencies = [
     "torch>=2.0.0",
